@@ -55,5 +55,5 @@ class Bot:
             for el in self.driver.find_elements_by_css_selector("._0mzm-"):
                 self.driver.execute_script("arguments[0].click();", el)
                 time.sleep(.5 + random.random() * 0.5)
-            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            self.driver.refresh()
             time.sleep(3)

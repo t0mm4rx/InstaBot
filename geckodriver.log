@@ -444,3 +444,70 @@ console.error: BroadcastService:
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1560349768940	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JXZlyZ0s67gm"
+1560349769296	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560349769297	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560349769297	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+1560349770396	Marionette	INFO	Listening on port 43735
+1560349770446	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol Error: Received an invalid file descriptor
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1560349866980	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fcF31m1uN9qE"
+1560349867368	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560349867369	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560349867369	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+1560349868448	Marionette	INFO	Listening on port 39799
+1560349868487	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol Error: Received an invalid file descriptor
+[Parent 25997, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 25997, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 25997, Gecko_IOThread] WARNING: pipe error (120): Connection reset by peer: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1560349885244	Marionette	INFO	Stopped listening on port 39799
+1560349887159	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LWtrdKTeeVeD"
+1560349887519	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560349887519	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560349887519	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+1560349888599	Marionette	INFO	Listening on port 34175
+1560349888676	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol Error: Received an invalid file descriptor
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+[Parent 27180, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 27180, Gecko_IOThread] WARNING: pipe error (91): Connection reset by peer: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 27180, Gecko_IOThread] WARNING: pipe error (121): Connection reset by peer: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1560349944521	Marionette	INFO	Stopped listening on port 34175
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 404: Error: OS.File has been shut down. Rejecting post to stat
+1560349992307	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Cz6B8A7shzG8"
+1560349992666	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560349992667	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560349992667	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+IPDL protocol Error: Received an invalid file descriptor
+IPDL protocol Error: Received an invalid file descriptor
+1560349993738	Marionette	INFO	Listening on port 43743
+1560349993826	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol Error: Received an invalid file descriptor
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
