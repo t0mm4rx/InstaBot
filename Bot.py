@@ -46,14 +46,14 @@ class Bot:
             self.driver.find_element_by_css_selector('.ckWGn').click()
             time.sleep(1 + random.random() * 5)
             if (i > 9):
-                return 0
+                return i
 
     def browse_suggested(self):
         self.driver.get("https://www.instagram.com/explore/people/suggested/")
         time.sleep(2)
-        for i in range(5):
-            for el in self.driver.find_elements_by_css_selector("._0mzm-"):
-                self.driver.execute_script("arguments[0].click();", el)
-                time.sleep(.5 + random.random() * 0.5)
-            self.driver.refresh()
-            time.sleep(3)
+        i = 0
+        for el in self.driver.find_elements_by_css_selector("._0mzm-"):
+            self.driver.execute_script("arguments[0].click();", el)
+            i+=1
+            time.sleep(.5 + random.random() * 0.5)
+        return i

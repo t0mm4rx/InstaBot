@@ -85,8 +85,6 @@ hashtags = [
     'flowers',
     'tflers',
 ]
-"""
+
 for h in hashtags:
     bot.browse_hashtag(h)
-"""
-bot.browse_suggested()
