@@ -37,4 +37,7 @@ bot = Bot('127.0.0.1', 'creds.json')
 # The bot will go to fashion hashtag page and will like and follow first 9 posts
 bot.browse_hashtag('fashion')
 
+# The bot will be in the "suggested friends" page and subscribe to everyone
+bot.browse_suggested()
+
 ```

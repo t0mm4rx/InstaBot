@@ -47,3 +47,13 @@ class Bot:
             time.sleep(1 + random.random() * 5)
             if (i > 9):
                 return 0
+
+    def browse_suggested(self):
+        self.driver.get("https://www.instagram.com/explore/people/suggested/")
+        time.sleep(2)
+        for i in range(5):
+            for el in self.driver.find_elements_by_css_selector("._0mzm-"):
+                self.driver.execute_script("arguments[0].click();", el)
+                time.sleep(.5 + random.random() * 0.5)
+            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            time.sleep(3)
