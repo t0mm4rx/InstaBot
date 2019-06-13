@@ -9,11 +9,16 @@ Instagram followers limit is 160/hour ! So don't go to fast or you'll get banned
 Tested and developped on Arch Linux with Firefox webdrivers.
 
 ## Dependencies
-The only dependency is Selenium :
-```
+The only required dependency is Selenium :
+```bash
 sudo pip install selenium
 ```
 You also need to install Selenium webdrivers, I tested with Firefox only.
+
+If you want to plot the evolution of your followers, install matplotlib :
+```bash
+sudo pip install matplotlib
+```
 
 ## How does it work ?
 First create a .json file containing your account creds :
@@ -45,3 +50,9 @@ bot.browse_suggested()
 bot.save_stats()
 
 ```
+
+If you want to plot the evolution of your followers :
+```bash
+python plot_stats.py
+```
+This command will generate a new graph in the graph folder. You need matplotlib to run this script.
