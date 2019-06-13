@@ -18,9 +18,9 @@ for h in history:
 
 x = matplotlib.dates.date2num(dates)
 plt.plot(x, y1, label="Followers")
-plt.plot(x, y2, label="Followed * 1/10")
+plt.plot(x, y2, label=r"Followed x$10^{-1}$")
 
-myFmt = DateFormatter('%d/%m %Hh')
+myFmt = DateFormatter('%d/%m')
 plt.gca().xaxis.set_major_formatter(myFmt)
 
 plt.legend()
