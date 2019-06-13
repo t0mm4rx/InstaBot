@@ -34,10 +34,14 @@ from Bot import Bot
 
 bot = Bot('127.0.0.1', 'creds.json')
 
-# The bot will go to fashion hashtag page and will like and follow first 9 posts
+# The bot will go to fashion hashtag page and will like and follow 160 posts
 bot.browse_hashtag('fashion')
 
 # The bot will be in the "suggested friends" page and subscribe to everyone
 bot.browse_suggested()
+
+# This function will add the current number of followers and followed in the stats.json file
+# This function is called after every browse_* function, so you don't need to use it manually
+bot.save_stats()
 
 ```

@@ -8,6 +8,6 @@ while True:
     a = 0
     while (a < 130):
         a += bot.browse_suggested()
-    print("[{}] Followed {} : now waiting for one hour".format(datetime.datetime.now()
+    print("[{}] Followed {} : now waiting for one hour".format(bot.get_date()
 , a))
     time.sleep(60 * 60)
