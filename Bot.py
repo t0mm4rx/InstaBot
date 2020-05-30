@@ -33,11 +33,13 @@ class Bot:
         time.sleep(2)
         i = 0
         last_index = 0
+
         while (i < 130):
             for l, el in enumerate(self.driver.find_elements_by_css_selector('.v1Nh3')):
-                if (l < last_index):
-                    break
-                last_index+=1
+                #if (l < last_index):
+                #    break
+                last_index = max(last_index, l)
+
                 el.click()
                 time.sleep(.5)
                 try:
@@ -49,20 +51,16 @@ class Bot:
                     i += 1
                 except:
                     pass
-                try:
-                    self.driver.find_element_by_xpath('//button[contains(text(),"Cancel")]').click()
-                except:
-                    pass
+
                 self.driver.find_element_by_css_selector('.ckWGn').click()
                 time.sleep(random.random() * 1)
             self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        if (i > 130):
-            self.save_stats()
-            return i
+
+        self.save_stats()
+        return i
 
     def browse_suggested(self):
         self.driver.get("https://www.instagram.com/explore/people/suggested/")
-        self.driver.refresh()
         time.sleep(2)
         i = 0
         for el in self.driver.find_elements_by_css_selector("._0mzm-"):
